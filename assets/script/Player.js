@@ -85,7 +85,7 @@ cc.Class({
         this.xSpeed = 0;
         // this.enabled = false;  
     },
-
+    // 触摸事件
     onTouch(event){
         let screenW = this.node.parent.children[4].width;
         if(event.touch._point.x < screenW/2){

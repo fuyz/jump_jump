@@ -68,18 +68,7 @@ cc.Class({
         this.starDuration = 5;  
         this.enabled = false;   
 
-        //初始化touch触摸监听：
-        // this.node.on(cc.Node.EventType.TOUCH_START, this.onTouch, this);
-        // cc.systemEvent.on(cc.SystemEvent.EventType.TOUCH_MOVE, this.onTouch, this);  
-
-    },
-
-    onDestroy () {
-        // 取消键盘输入监听
-        this.startBtn.off(cc.Node.EventType.TOUCH_START, this.onMouseDown, this);
-
-        this.node.off(cc.Node.EventType.TOUCH_START, this.onTouch, this);
-        // cc.systemEvent.off(cc.SystemEvent.EventType.TOUCH_MOVE, this.onTouch, this);
+       
     },
 
     spawnNewStar: function() {
@@ -99,18 +88,6 @@ cc.Class({
         this.enabled = true;
 
         
-    },
-
-    onTouch(event){
-    	let screenW = this.ground.width;
-    	if(event.touch._point < screenW/2){
- 			this.accLeft = true;
-            this.accRight = false;
-    	}else{
-    		this.accLeft = false;
-            this.accRight = true;
-    	}
-    	console.log(event);
     },
 
     getNewStarPosition: function () {
