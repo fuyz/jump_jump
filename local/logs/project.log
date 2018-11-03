@@ -1,0 +1,146 @@
+2018-11-03T03:39:40.677Z - normal: Load ~/.CocosCreator/settings.json
+2018-11-03T03:39:40.680Z - normal: checking language setting...
+2018-11-03T03:39:40.680Z - normal: Language: zh
+2018-11-03T03:39:41.092Z - success: protocol editor-framework registered
+2018-11-03T03:39:41.092Z - success: protocol app registered
+2018-11-03T03:39:41.092Z - success: protocol theme registered
+2018-11-03T03:39:41.092Z - success: protocol packages registered
+2018-11-03T03:39:41.093Z - success: protocol unpack registerred
+2018-11-03T03:39:41.093Z - success: protocol disable-commonjs registerred
+2018-11-03T03:39:41.332Z - normal: connected!
+2018-11-03T03:39:41.335Z - normal: Check project /Users/fuyingzhi/Desktop/start_project
+2018-11-03T03:39:41.339Z - normal: Initializing project /Users/fuyingzhi/Desktop/start_project
+2018-11-03T03:39:41.345Z - normal: Initializing Cocos2d
+2018-11-03T03:39:42.186Z - normal: Initializing Asset Database
+2018-11-03T03:39:42.217Z - success: protocol uuid registerred
+2018-11-03T03:39:42.218Z - success: protocol db registerred
+2018-11-03T03:39:42.218Z - success: protocol thumbnail registerred
+2018-11-03T03:39:42.218Z - normal: Loading editor/builtin packages
+2018-11-03T03:39:42.361Z - success: assets loaded
+2018-11-03T03:39:42.364Z - success: builder loaded
+2018-11-03T03:39:42.366Z - success: cocos-analytics loaded
+2018-11-03T03:39:42.370Z - success: console loaded
+2018-11-03T03:39:42.401Z - success: fb-instant-games loaded
+2018-11-03T03:39:42.404Z - success: google-instant-games loaded
+2018-11-03T03:39:42.411Z - success: hierarchy loaded
+2018-11-03T03:39:42.415Z - success: inspector loaded
+2018-11-03T03:39:42.417Z - success: keystore loaded
+2018-11-03T03:39:42.422Z - success: node-library loaded
+2018-11-03T03:39:42.424Z - success: package-asset loaded
+2018-11-03T03:39:42.426Z - success: preferences loaded
+2018-11-03T03:39:42.429Z - success: project-exporter loaded
+2018-11-03T03:39:42.442Z - success: project-importer loaded
+2018-11-03T03:39:42.445Z - success: project-settings loaded
+2018-11-03T03:39:42.451Z - success: ui-kit loaded
+2018-11-03T03:39:42.454Z - success: scene loaded
+2018-11-03T03:39:42.457Z - success: sprite-editor loaded
+2018-11-03T03:39:42.461Z - success: store loaded
+2018-11-03T03:39:42.465Z - success: timeline loaded
+2018-11-03T03:39:42.465Z - normal: Loading builtin packages
+2018-11-03T03:39:42.471Z - success: asset-db-debugger loaded
+2018-11-03T03:39:42.473Z - success: color-picker loaded
+2018-11-03T03:39:42.546Z - success: google-play-instant loaded
+2018-11-03T03:39:42.547Z - success: jsb-adapter loaded
+2018-11-03T03:39:42.552Z - success: package-manager loaded
+2018-11-03T03:39:42.648Z - success: qqplay-adapter loaded
+2018-11-03T03:39:42.653Z - success: sdkbox loaded
+2018-11-03T03:39:42.659Z - success: tester loaded
+2018-11-03T03:39:42.664Z - success: ui-grid loaded
+2018-11-03T03:39:42.667Z - success: ui-kit-preview-extra loaded
+2018-11-03T03:39:42.671Z - success: ui-kit-preview loaded
+2018-11-03T03:39:42.675Z - success: ui-tree loaded
+2018-11-03T03:39:42.676Z - success: weapp-adapter loaded
+2018-11-03T03:39:43.582Z - normal: Loading packages
+2018-11-03T03:39:43.586Z - normal: Watching packages
+2018-11-03T03:39:43.647Z - normal: Run Application
+2018-11-03T03:39:44.311Z - success: preview server running at http://localhost:7456
+2018-11-03T03:39:49.928Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-03T03:39:59.367Z - error: getComponent: Type must be non-nil
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
+    at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
+    at HTMLElement.query-node-info (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-query.js:1:1251)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-11-03T03:41:45.578Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-03T03:41:45.982Z - error: getComponent: Type must be non-nil
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
+    at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
+    at HTMLElement.query-node-info (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-query.js:1:1251)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-11-03T04:00:08.836Z - error: getComponent: Type must be non-nil
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
+    at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
+    at HTMLElement.query-node-info (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-query.js:1:1251)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-11-03T04:06:24.306Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-03T04:07:28.948Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-03T04:07:36.892Z - error: getComponent: Type must be non-nil
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
+    at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
+    at HTMLElement.query-node-info (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-query.js:1:1251)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-11-03T04:09:21.609Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-03T04:09:21.932Z - error: getComponent: Type must be non-nil
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
+    at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
+    at HTMLElement.query-node-info (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-query.js:1:1251)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-11-03T04:11:08.534Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-03T04:11:08.795Z - error: getComponent: Type must be non-nil
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
+    at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
+    at HTMLElement.query-node-info (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-query.js:1:1251)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-11-03T04:15:28.129Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-03T04:15:28.387Z - error: getComponent: Type must be non-nil
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
+    at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
+    at HTMLElement.query-node-info (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-query.js:1:1251)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-11-03T04:16:38.975Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-03T04:16:39.454Z - error: getComponent: Type must be non-nil
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
+    at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
+    at HTMLElement.query-node-info (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-query.js:1:1251)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-11-03T04:17:21.654Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-03T04:17:22.085Z - error: getComponent: Type must be non-nil
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
+    at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
+    at HTMLElement.query-node-info (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-query.js:1:1251)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
