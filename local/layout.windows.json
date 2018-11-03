@@ -99,7 +99,8 @@
         "assets",
         "scene"
       ]
-    }
+    },
+    "window-1541220391485": {}
   },
   "panels": {
     "preferences": {
@@ -115,8 +116,8 @@
       "height": 522
     },
     "builder": {
-      "x": 534,
-      "y": 181,
+      "x": 433,
+      "y": 95,
       "width": 654,
       "height": 722
     },

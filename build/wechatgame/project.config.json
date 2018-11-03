@@ -5,14 +5,12 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": false,
-		"nodeModules": false,
-		"uglifyFileName": false
+		"newFeature": false
 	},
 	"compileType": "game",
 	"libVersion": "game",
 	"appid": "wx4ff5402024551b57",
-	"projectname": "start_project",
+	"projectname": "jump_jump",
 	"condition": {
 		"search": {
 			"current": -1,

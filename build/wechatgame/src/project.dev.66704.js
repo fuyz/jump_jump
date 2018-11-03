@@ -67,9 +67,6 @@ window.__require = function e(t, n, r) {
         this.starDuration = 5;
         this.enabled = false;
       },
-      onDestroy: function onDestroy() {
-        this.startBtn.off(cc.Node.EventType.TOUCH_START, this.onMouseDown, this);
-      },
       spawnNewStar: function spawnNewStar() {
         var newStar = cc.instantiate(this.starPrefab);
         this.node.addChild(newStar);
@@ -132,13 +129,15 @@ window.__require = function e(t, n, r) {
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
         cc.systemEvent.setAccelerometerEnabled(true);
         cc.systemEvent.on(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);
+        this.node.parent.on(cc.Node.EventType.TOUCH_START, this.onTouch, this);
+        this.node.parent.on(cc.Node.EventType.TOUCH_MOVE, this.onTouch, this);
         this.node.runAction(this.setJumpAction());
       },
       setJumpAction: function setJumpAction() {
         var jumpUp = cc.moveBy(this.jumpDuration, cc.v2(0, this.jumpHeight)).easing(cc.easeCubicActionOut());
         var jumpDown = cc.moveBy(this.jumpDuration, cc.v2(0, -this.jumpHeight)).easing(cc.easeCubicActionIn());
-        var squash = cc.scaleTo(this.squashDuration, 1, .8);
-        var stretch = cc.scaleTo(this.squashDuration, 1, 1.1);
+        var squash = cc.scaleTo(this.squashDuration, 1, 1);
+        var stretch = cc.scaleTo(this.squashDuration, 1, 1.5);
         var scaleBack = cc.scaleTo(this.squashDuration, 1, 1);
         var callback = cc.callFunc(this.playJumpSound, this);
         return cc.repeatForever(cc.sequence(squash, stretch, jumpUp, scaleBack, jumpDown, callback));
@@ -151,8 +150,19 @@ window.__require = function e(t, n, r) {
         this.accRight = false;
         this.xSpeed = 0;
       },
+      onTouch: function onTouch(event) {
+        var screenW = this.node.parent.children[4].width;
+        if (event.touch._point.x < screenW / 2) {
+          this.accLeft = true;
+          this.accRight = false;
+          console.log("left");
+        } else {
+          this.accLeft = false;
+          this.accRight = true;
+          console.log("right");
+        }
+      },
       onDeviceMotionEvent: function onDeviceMotionEvent(event) {
-        cc.log("\u91cd\u529b\u611f\u5e94\uff1a" + event.acc.x + "  " + event.acc.y);
         if (event.acc.x < -.05) {
           this.accLeft = true;
           this.accRight = false;
@@ -188,6 +198,8 @@ window.__require = function e(t, n, r) {
         cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.off(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
         cc.systemEvent.off(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);
+        this.node.parent.off(cc.Node.EventType.TOUCH_START, this.onTouch, this);
+        this.node.parent.off(cc.Node.EventType.TOUCH_MOVE, this.onTouch, this);
       },
       update: function update(dt) {
         this.accLeft ? this.xSpeed -= this.accel * dt : this.accRight && (this.xSpeed += this.accel * dt);

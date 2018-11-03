@@ -55,3 +55,106 @@
 2018-11-03T04:42:39.184Z - normal: Run Application
 2018-11-03T04:42:39.641Z - success: preview server running at http://localhost:7457
 2018-11-03T04:42:45.340Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-03T04:45:49.218Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-03T04:46:48.882Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/fuyingzhi/Desktop/jump_jump/build",
+  "debug": true,
+  "dest": "/Users/fuyingzhi/Desktop/jump_jump/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "03558813-7ecf-4855-a087-2d2401021aee"
+  ],
+  "sourceMaps": false,
+  "startScene": "03558813-7ecf-4855-a087-2d2401021aee",
+  "template": "link",
+  "title": "jump_jump",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx4ff5402024551b57",
+    "isSubdomain": false,
+    "orientation": "landscape",
+    "subContext": ""
+  },
+  "xxteaKey": "2fd6ceeb-ebfe-4b",
+  "zipCompressJs": true,
+  "project": "/Users/fuyingzhi/Desktop/jump_jump",
+  "projectName": "jump_jump",
+  "debugBuildWorker": false
+}
+2018-11-03T04:46:48.885Z - normal: Building /Users/fuyingzhi/Desktop/jump_jump
+2018-11-03T04:46:48.885Z - normal: Destination /Users/fuyingzhi/Desktop/jump_jump/build/wechatgame
+2018-11-03T04:46:49.292Z - normal: Delete /Users/fuyingzhi/Desktop/jump_jump/build/wechatgame/**/*
+2018-11-03T04:46:51.192Z - normal: Start building assets
+2018-11-03T04:46:51.193Z - normal: Start spawn build-worker
+2018-11-03T04:46:51.846Z - normal: Finish spawn build-worker
+2018-11-03T04:46:51.846Z - normal: Start init build-worker
+2018-11-03T04:46:55.001Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-03T04:46:55.004Z - normal: Finish init build-worker
+2018-11-03T04:46:55.004Z - normal: Start build-assets in worker
+2018-11-03T04:46:55.280Z - normal: Finish build-assets in worker
+2018-11-03T04:46:55.283Z - normal: Finish building assets
+2018-11-03T04:46:55.290Z - normal: Start building plugin scripts
+2018-11-03T04:46:55.327Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-11-03T04:46:56.685Z - normal: Built to "/Users/fuyingzhi/Desktop/jump_jump/build/wechatgame" successfully
+2018-11-03T04:47:02.223Z - normal: Initializing...
+
+2018-11-03T04:47:02.227Z - normal: idePortFile: /Users/fuyingzhi/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-11-03T04:47:02.242Z - normal: starting ide...
+
+2018-11-03T04:47:06.866Z - normal: IDE server has started, listening on http://127.0.0.1:62585
+
+2018-11-03T04:47:06.870Z - normal: initialization finished
+
+2018-11-03T04:47:07.497Z - error: StatusCodeError: 400 - "{\"code\":40000,\"error\":\"Error {\\\"code\\\":40000,\\\"error\\\":\\\"Error TypeError: Cannot read property 'runtimeAttr' of undefined\\\"}\"}"
+
+    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
