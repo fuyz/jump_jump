@@ -320,13 +320,13 @@
     "relativePath": "prefab/webview.prefab"
   },
   "701b30dc-301e-467e-a347-587b92624aad": {
-    "asset": 1541220234777,
-    "meta": 1541220348993,
+    "asset": 1541385216063,
+    "meta": 1541385217157,
     "relativePath": "script/Game.js"
   },
   "688ef840-4c04-40cf-b73f-91c0260ec7ad": {
-    "asset": 1541220288594,
-    "meta": 1541220348994,
+    "asset": 1541385218799,
+    "meta": 1541385219307,
     "relativePath": "script/Player.js"
   }
 }

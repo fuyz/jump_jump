@@ -84,6 +84,7 @@ cc.Class({
         // 主角当前水平方向速度
         this.xSpeed = 0;
         // this.enabled = false;  
+        
     },
     // 触摸事件
     onTouch(event){

@@ -1,160 +1,109 @@
-2018-11-03T04:42:36.245Z - normal: Load ~/.CocosCreator/settings.json
-2018-11-03T04:42:36.249Z - normal: checking language setting...
-2018-11-03T04:42:36.249Z - normal: Language: zh
-2018-11-03T04:42:36.651Z - success: protocol editor-framework registered
-2018-11-03T04:42:36.651Z - success: protocol app registered
-2018-11-03T04:42:36.652Z - success: protocol theme registered
-2018-11-03T04:42:36.652Z - success: protocol packages registered
-2018-11-03T04:42:36.652Z - success: protocol unpack registerred
-2018-11-03T04:42:36.652Z - success: protocol disable-commonjs registerred
-2018-11-03T04:42:36.878Z - normal: connected!
-2018-11-03T04:42:36.880Z - normal: Check project /Users/fuyingzhi/Desktop/jump_jump
-2018-11-03T04:42:36.883Z - normal: Initializing project /Users/fuyingzhi/Desktop/jump_jump
-2018-11-03T04:42:36.889Z - normal: Initializing Cocos2d
-2018-11-03T04:42:37.753Z - normal: Initializing Asset Database
-2018-11-03T04:42:37.782Z - success: protocol uuid registerred
-2018-11-03T04:42:37.782Z - success: protocol db registerred
-2018-11-03T04:42:37.782Z - success: protocol thumbnail registerred
-2018-11-03T04:42:37.782Z - normal: Loading editor/builtin packages
-2018-11-03T04:42:37.919Z - success: assets loaded
-2018-11-03T04:42:37.923Z - success: builder loaded
-2018-11-03T04:42:37.925Z - success: cocos-analytics loaded
-2018-11-03T04:42:37.929Z - success: console loaded
-2018-11-03T04:42:37.958Z - success: fb-instant-games loaded
-2018-11-03T04:42:37.962Z - success: google-instant-games loaded
-2018-11-03T04:42:37.967Z - success: hierarchy loaded
-2018-11-03T04:42:37.971Z - success: inspector loaded
-2018-11-03T04:42:37.973Z - success: keystore loaded
-2018-11-03T04:42:37.977Z - success: node-library loaded
-2018-11-03T04:42:37.980Z - success: package-asset loaded
-2018-11-03T04:42:37.981Z - success: preferences loaded
-2018-11-03T04:42:37.984Z - success: project-exporter loaded
-2018-11-03T04:42:37.996Z - success: project-importer loaded
-2018-11-03T04:42:37.999Z - success: project-settings loaded
-2018-11-03T04:42:38.007Z - success: ui-kit loaded
-2018-11-03T04:42:38.011Z - success: scene loaded
-2018-11-03T04:42:38.012Z - success: sprite-editor loaded
-2018-11-03T04:42:38.016Z - success: store loaded
-2018-11-03T04:42:38.020Z - success: timeline loaded
-2018-11-03T04:42:38.020Z - normal: Loading builtin packages
-2018-11-03T04:42:38.027Z - success: asset-db-debugger loaded
-2018-11-03T04:42:38.029Z - success: color-picker loaded
-2018-11-03T04:42:38.099Z - success: google-play-instant loaded
-2018-11-03T04:42:38.101Z - success: jsb-adapter loaded
-2018-11-03T04:42:38.108Z - success: package-manager loaded
-2018-11-03T04:42:38.199Z - success: qqplay-adapter loaded
-2018-11-03T04:42:38.205Z - success: sdkbox loaded
-2018-11-03T04:42:38.210Z - success: tester loaded
-2018-11-03T04:42:38.216Z - success: ui-grid loaded
-2018-11-03T04:42:38.220Z - success: ui-kit-preview-extra loaded
-2018-11-03T04:42:38.226Z - success: ui-kit-preview loaded
-2018-11-03T04:42:38.230Z - success: ui-tree loaded
-2018-11-03T04:42:38.232Z - success: weapp-adapter loaded
-2018-11-03T04:42:39.114Z - normal: Loading packages
-2018-11-03T04:42:39.119Z - normal: Watching packages
-2018-11-03T04:42:39.184Z - normal: Run Application
-2018-11-03T04:42:39.641Z - success: preview server running at http://localhost:7457
-2018-11-03T04:42:45.340Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
-2018-11-03T04:45:49.218Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
-2018-11-03T04:46:48.882Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/fuyingzhi/Desktop/jump_jump/build",
-  "debug": true,
-  "dest": "/Users/fuyingzhi/Desktop/jump_jump/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.start_project",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "scenes": [
-    "03558813-7ecf-4855-a087-2d2401021aee"
-  ],
-  "sourceMaps": false,
-  "startScene": "03558813-7ecf-4855-a087-2d2401021aee",
-  "template": "link",
-  "title": "jump_jump",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx4ff5402024551b57",
-    "isSubdomain": false,
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "2fd6ceeb-ebfe-4b",
-  "zipCompressJs": true,
-  "project": "/Users/fuyingzhi/Desktop/jump_jump",
-  "projectName": "jump_jump",
-  "debugBuildWorker": false
-}
-2018-11-03T04:46:48.885Z - normal: Building /Users/fuyingzhi/Desktop/jump_jump
-2018-11-03T04:46:48.885Z - normal: Destination /Users/fuyingzhi/Desktop/jump_jump/build/wechatgame
-2018-11-03T04:46:49.292Z - normal: Delete /Users/fuyingzhi/Desktop/jump_jump/build/wechatgame/**/*
-2018-11-03T04:46:51.192Z - normal: Start building assets
-2018-11-03T04:46:51.193Z - normal: Start spawn build-worker
-2018-11-03T04:46:51.846Z - normal: Finish spawn build-worker
-2018-11-03T04:46:51.846Z - normal: Start init build-worker
-2018-11-03T04:46:55.001Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
-2018-11-03T04:46:55.004Z - normal: Finish init build-worker
-2018-11-03T04:46:55.004Z - normal: Start build-assets in worker
-2018-11-03T04:46:55.280Z - normal: Finish build-assets in worker
-2018-11-03T04:46:55.283Z - normal: Finish building assets
-2018-11-03T04:46:55.290Z - normal: Start building plugin scripts
-2018-11-03T04:46:55.327Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-11-03T04:46:56.685Z - normal: Built to "/Users/fuyingzhi/Desktop/jump_jump/build/wechatgame" successfully
-2018-11-03T04:47:02.223Z - normal: Initializing...
-
-2018-11-03T04:47:02.227Z - normal: idePortFile: /Users/fuyingzhi/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-11-03T04:47:02.242Z - normal: starting ide...
-
-2018-11-03T04:47:06.866Z - normal: IDE server has started, listening on http://127.0.0.1:62585
-
-2018-11-03T04:47:06.870Z - normal: initialization finished
-
-2018-11-03T04:47:07.497Z - error: StatusCodeError: 400 - "{\"code\":40000,\"error\":\"Error {\\\"code\\\":40000,\\\"error\\\":\\\"Error TypeError: Cannot read property 'runtimeAttr' of undefined\\\"}\"}"
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
+2018-11-05T01:56:08.907Z - normal: Load ~/.CocosCreator/settings.json
+2018-11-05T01:56:08.909Z - normal: checking language setting...
+2018-11-05T01:56:08.910Z - normal: Language: zh
+2018-11-05T01:56:09.563Z - success: protocol editor-framework registered
+2018-11-05T01:56:09.563Z - success: protocol app registered
+2018-11-05T01:56:09.563Z - success: protocol theme registered
+2018-11-05T01:56:09.563Z - success: protocol packages registered
+2018-11-05T01:56:09.563Z - success: protocol unpack registerred
+2018-11-05T01:56:09.564Z - success: protocol disable-commonjs registerred
+2018-11-05T01:56:09.827Z - normal: connected!
+2018-11-05T01:56:09.831Z - normal: Check project /Users/fuyingzhi/Desktop/jump_jump
+2018-11-05T01:56:09.836Z - normal: Initializing project /Users/fuyingzhi/Desktop/jump_jump
+2018-11-05T01:56:09.840Z - normal: Initializing Cocos2d
+2018-11-05T01:56:10.790Z - normal: Initializing Asset Database
+2018-11-05T01:56:10.844Z - success: protocol uuid registerred
+2018-11-05T01:56:10.844Z - success: protocol db registerred
+2018-11-05T01:56:10.844Z - success: protocol thumbnail registerred
+2018-11-05T01:56:10.844Z - normal: Loading editor/builtin packages
+2018-11-05T01:56:11.054Z - success: assets loaded
+2018-11-05T01:56:11.058Z - success: builder loaded
+2018-11-05T01:56:11.061Z - success: cocos-analytics loaded
+2018-11-05T01:56:11.065Z - success: console loaded
+2018-11-05T01:56:11.094Z - success: fb-instant-games loaded
+2018-11-05T01:56:11.096Z - success: google-instant-games loaded
+2018-11-05T01:56:11.102Z - success: hierarchy loaded
+2018-11-05T01:56:11.107Z - success: inspector loaded
+2018-11-05T01:56:11.109Z - success: keystore loaded
+2018-11-05T01:56:11.115Z - success: node-library loaded
+2018-11-05T01:56:11.117Z - success: package-asset loaded
+2018-11-05T01:56:11.119Z - success: preferences loaded
+2018-11-05T01:56:11.123Z - success: project-exporter loaded
+2018-11-05T01:56:11.139Z - success: project-importer loaded
+2018-11-05T01:56:11.142Z - success: project-settings loaded
+2018-11-05T01:56:11.147Z - success: ui-kit loaded
+2018-11-05T01:56:11.152Z - success: scene loaded
+2018-11-05T01:56:11.154Z - success: sprite-editor loaded
+2018-11-05T01:56:11.158Z - success: store loaded
+2018-11-05T01:56:11.164Z - success: timeline loaded
+2018-11-05T01:56:11.164Z - normal: Loading builtin packages
+2018-11-05T01:56:11.169Z - success: asset-db-debugger loaded
+2018-11-05T01:56:11.171Z - success: color-picker loaded
+2018-11-05T01:56:11.271Z - success: google-play-instant loaded
+2018-11-05T01:56:11.272Z - success: jsb-adapter loaded
+2018-11-05T01:56:11.279Z - success: package-manager loaded
+2018-11-05T01:56:11.428Z - success: qqplay-adapter loaded
+2018-11-05T01:56:11.434Z - success: sdkbox loaded
+2018-11-05T01:56:11.439Z - success: tester loaded
+2018-11-05T01:56:11.443Z - success: ui-grid loaded
+2018-11-05T01:56:11.446Z - success: ui-kit-preview-extra loaded
+2018-11-05T01:56:11.449Z - success: ui-kit-preview loaded
+2018-11-05T01:56:11.453Z - success: ui-tree loaded
+2018-11-05T01:56:11.455Z - success: weapp-adapter loaded
+2018-11-05T01:56:12.414Z - normal: Loading packages
+2018-11-05T01:56:12.418Z - normal: Watching packages
+2018-11-05T01:56:12.487Z - normal: Run Application
+2018-11-05T01:56:13.007Z - success: preview server running at http://localhost:7456
+2018-11-05T01:56:18.647Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-05T01:56:25.112Z - warn: Error: Ipc will not have a callback. message: scene@renderer:1060
+2018-11-05T01:56:25.123Z - error: Failed to reset layout: Error: Failed to close panel scene
+    at Object.e._unloadAll (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2087)
+    at r.waterfall.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dock-utils.js:1:5916)
+    at fn (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:746:34)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:1213:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:166:37
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:706:43
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:710:44)
+    at Object.e.reset (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dock-utils.js:1:5899)
+    at EventEmitter.t.ipcRenderer.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dock-utils.js:1:8429)
+    at e.reset.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dock-utils.js:1:8453)
+    at r.waterfall.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dock-utils.js:1:7375)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:696:30
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at Immediate.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:1206:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-11-05T01:56:33.095Z - error: getComponent: Type must be non-nil
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
+    at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
+    at HTMLElement.query-node-info (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-query.js:1:1251)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-11-05T02:28:55.992Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-05T02:31:34.444Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-05T02:31:38.963Z - error: getComponent: Type must be non-nil
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
+    at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
+    at HTMLElement.query-node-info (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-query.js:1:1251)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-11-05T02:33:37.413Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-05T02:33:39.517Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-05T02:33:47.279Z - error: getComponent: Type must be non-nil
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
+    at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
+    at HTMLElement.query-node-info (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-query.js:1:1251)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)

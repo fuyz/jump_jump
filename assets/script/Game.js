@@ -67,11 +67,12 @@ cc.Class({
         this.timer = 0;
         this.starDuration = 5;  
         this.enabled = false;   
-
        
     },
 
     spawnNewStar: function() {
+        this.startBtn.active = false;
+        
         // 使用给定的模板在场景中生成一个新节点
         var newStar = cc.instantiate(this.starPrefab);
         // 将新增的节点添加到 Canvas 节点下面
@@ -87,7 +88,6 @@ cc.Class({
         this.timer = 0;
         this.enabled = true;
 
-        
     },
 
     getNewStarPosition: function () {
