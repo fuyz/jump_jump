@@ -2,7 +2,7 @@
 cc._RF.push(module, '688efhATARAz7c/kcAmDset', 'Player', __filename);
 // script/Player.js
 
-'use strict';
+"use strict";
 
 // Learn cc.Class:
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
@@ -26,6 +26,8 @@ cc.Class({
         maxMoveSpeed: 0,
         // 加速度
         accel: 0,
+
+        xSpeed: 0,
 
         // 辅助形变动作时间
         squashDuration: 0,
@@ -87,7 +89,7 @@ cc.Class({
         this.accRight = false;
         // 主角当前水平方向速度
         this.xSpeed = 0;
-        // this.enabled = false;  
+        this.enabled = true;
     },
 
 
@@ -101,11 +103,11 @@ cc.Class({
         if (event.touch._point.x < screenW / 2) {
             this.accLeft = true;
             this.accRight = false;
-            console.log('left');
+            // console.log('left');
         } else {
             this.accLeft = false;
             this.accRight = true;
-            console.log('right');
+            // console.log('right');
         }
         // console.log(event);
     },
@@ -148,9 +150,7 @@ cc.Class({
         // 取消键盘输入监听
         cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.off(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
-
         cc.systemEvent.off(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);
-
         this.node.parent.off(cc.Node.EventType.TOUCH_START, this.onTouch, this);
         this.node.parent.off(cc.Node.EventType.TOUCH_MOVE, this.onTouch, this);
     },
@@ -161,6 +161,9 @@ cc.Class({
     // update 在场景加载后就会每帧调用一次，我们一般把需要经常计算或及时更新的逻辑内容放在这里。
     // 在我们的游戏中，根据键盘输入获得加速度方向后，就需要每帧在 update 中计算主角的速度和位置。
     update: function update(dt) {
+
+        if (!this.enabled) return;
+
         // 根据当前加速度方向每帧更新速度
         if (this.accLeft) {
             this.xSpeed -= this.accel * dt;
@@ -187,7 +190,6 @@ cc.Class({
             this.node.x = screenW / 2;
         }
     }
-
     // update (dt) {},
 });
 

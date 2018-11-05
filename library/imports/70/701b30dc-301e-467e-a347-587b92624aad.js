@@ -55,6 +55,11 @@ cc.Class({
         scoreAudio: {
             default: null,
             type: cc.AudioClip
+        },
+
+        gameOverMode: {
+            default: null,
+            type: cc.Node
         }
 
     },
@@ -69,6 +74,7 @@ cc.Class({
 
     start: function start() {
 
+        this.gameOverMode.active = false;
         // 初始化计分
         this.score = 0;
         // 初始化计时器
@@ -114,15 +120,18 @@ cc.Class({
 
     update: function update(dt) {
 
+        if (!this.enabled) return;
+
         // 每帧更新计时器，超过限度还没有生成新的星星
         // 就会调用游戏失败逻辑
         if (this.timer > this.starDuration) {
             // console.log('gamse over')
             this.gameOver();
+
             return;
         }
         this.timer += dt;
-        // console.log('dt:'+ dt);
+        // console.log(PlayerF);
     },
 
 
@@ -136,11 +145,21 @@ cc.Class({
 
     gameOver: function gameOver() {
         this.player.stopAllActions(); //停止 player 节点的跳跃动作
-        console.log('game over');
+        this.enabled = false;
         // 停止所有动作
         // this.node.stopAllActions();
+
+        this.gameOverMode.active = true;
+        this.node.children[2].active = false;
         // this.node.destroy();
+    },
+
+    reloadGame: function reloadGame() {
         cc.director.loadScene('game'); //启动游戏
+    },
+
+    cancelGame: function cancelGame() {
+        this.gameOverMode.active = false;
     }
 
 });
