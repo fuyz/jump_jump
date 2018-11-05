@@ -85,8 +85,8 @@
     "relativePath": "script"
   },
   "03558813-7ecf-4855-a087-2d2401021aee": {
-    "asset": 1541044840118,
-    "meta": 1541044840123,
+    "asset": 1541402859251,
+    "meta": 1541402859264,
     "relativePath": "game.fire"
   },
   "03875f92-d36c-4ad9-9931-7f7c2891e00d": {
@@ -320,13 +320,13 @@
     "relativePath": "prefab/webview.prefab"
   },
   "701b30dc-301e-467e-a347-587b92624aad": {
-    "asset": 1541385216063,
-    "meta": 1541385217157,
+    "asset": 1541390055957,
+    "meta": 1541390058244,
     "relativePath": "script/Game.js"
   },
   "688ef840-4c04-40cf-b73f-91c0260ec7ad": {
-    "asset": 1541385218799,
-    "meta": 1541385219307,
+    "asset": 1541403469821,
+    "meta": 1541403475147,
     "relativePath": "script/Player.js"
   }
 }

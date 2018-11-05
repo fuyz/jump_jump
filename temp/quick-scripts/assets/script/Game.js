@@ -63,22 +63,26 @@ cc.Class({
 
     onLoad: function onLoad() {
 
-        // 初始化计分
-        this.score = 0;
-
         // 获取地平面的 y 轴坐标
         this.groundY = this.ground.y + this.ground.height / 2;
+    },
 
+    start: function start() {
+
+        // 初始化计分
+        this.score = 0;
         // 初始化计时器
         this.timer = 0;
         this.starDuration = 5;
         this.enabled = false;
     },
 
-    spawnNewStar: function spawnNewStar() {
-        this.startBtn.active = false;
 
-        // 使用给定的模板在场景中生成一个新节点
+    spawnNewStar: function spawnNewStar() {
+        // this.startBtn.active = false;
+        this.startBtn.destroy();
+
+        // 使用给定的模板在场景中生成一个新节点 (克隆)
         var newStar = cc.instantiate(this.starPrefab);
         // 将新增的节点添加到 Canvas 节点下面
         this.node.addChild(newStar);
@@ -108,7 +112,6 @@ cc.Class({
         // return cc.v2(100, -100);
     },
 
-    start: function start() {},
     update: function update(dt) {
 
         // 每帧更新计时器，超过限度还没有生成新的星星
@@ -134,7 +137,9 @@ cc.Class({
     gameOver: function gameOver() {
         this.player.stopAllActions(); //停止 player 节点的跳跃动作
         console.log('game over');
-        this.node.destroy();
+        // 停止所有动作
+        // this.node.stopAllActions();
+        // this.node.destroy();
         cc.director.loadScene('game'); //启动游戏
     }
 

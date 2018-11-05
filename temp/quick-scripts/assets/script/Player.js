@@ -39,7 +39,6 @@ cc.Class({
     },
 
     startJump: function startJump() {
-
         // 初始化键盘输入监听
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
@@ -90,6 +89,11 @@ cc.Class({
         this.xSpeed = 0;
         // this.enabled = false;  
     },
+
+
+    // 初始化完成后执行的方法
+    start: function start() {},
+
 
     // 触摸事件
     onTouch: function onTouch(event) {
@@ -150,7 +154,9 @@ cc.Class({
         this.node.parent.off(cc.Node.EventType.TOUCH_START, this.onTouch, this);
         this.node.parent.off(cc.Node.EventType.TOUCH_MOVE, this.onTouch, this);
     },
-
+    lateUpdate: function lateUpdate() {
+        // this.node.rotation = 0;
+    },
 
     // update 在场景加载后就会每帧调用一次，我们一般把需要经常计算或及时更新的逻辑内容放在这里。
     // 在我们的游戏中，根据键盘输入获得加速度方向后，就需要每帧在 update 中计算主角的速度和位置。
@@ -158,7 +164,9 @@ cc.Class({
         // 根据当前加速度方向每帧更新速度
         if (this.accLeft) {
             this.xSpeed -= this.accel * dt;
+            this.node.rotation = 15;
         } else if (this.accRight) {
+            this.node.rotation = -15;
             this.xSpeed += this.accel * dt;
         }
         // 限制主角的速度不能超过最大值
@@ -171,19 +179,17 @@ cc.Class({
         this.node.x += this.xSpeed * dt;
 
         //判断主角是否跑出左右边界
-        var screenW = cc.view.getFrameSize().width;
+        // let screenW = cc.view.getFrameSize().width;
+        var screenW = this.node.parent.width;
         if (this.node.x < -screenW / 2) {
             this.node.x = -screenW / 2;
         } else if (this.node.x > screenW / 2) {
             this.node.x = screenW / 2;
         }
-    },
+    }
 
-    start: function start() {}
-}
-
-// update (dt) {},
-);
+    // update (dt) {},
+});
 
 cc._RF.pop();
         }
