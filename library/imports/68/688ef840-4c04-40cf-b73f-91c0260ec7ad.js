@@ -99,7 +99,7 @@ cc.Class({
 
     // 触摸事件
     onTouch: function onTouch(event) {
-        var screenW = this.node.parent.children[4].width;
+        var screenW = this.node.parent.width;
         if (event.touch._point.x < screenW / 2) {
             this.accLeft = true;
             this.accRight = false;

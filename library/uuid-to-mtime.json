@@ -45,7 +45,7 @@
     "relativePath": "audio/score.mp3"
   },
   "d6ff10bc-4d58-4d63-8af4-19151a90da2c": {
-    "asset": 1541405986430,
+    "asset": 1541473634944,
     "meta": 1526930962000,
     "relativePath": "textures"
   },
@@ -85,8 +85,8 @@
     "relativePath": "script"
   },
   "03558813-7ecf-4855-a087-2d2401021aee": {
-    "asset": 1541406121311,
-    "meta": 1541406121326,
+    "asset": 1541474198800,
+    "meta": 1541474198813,
     "relativePath": "game.fire"
   },
   "03875f92-d36c-4ad9-9931-7f7c2891e00d": {
@@ -319,34 +319,29 @@
     "meta": 1541406199217,
     "relativePath": "prefab/webview.prefab"
   },
-  "facd181c-859e-49b3-ba35-909875d0033e": {
-    "asset": 1541405145807,
-    "meta": 1541405161873,
-    "relativePath": "textures/Game_Over.png"
-  },
   "c43e0fbc-d772-42bf-8204-22adb0c7186f": {
     "asset": 1540950979284,
     "meta": 1541405683297,
     "relativePath": "textures/bg.png"
-  },
-  "7a5b3d4e-bfcc-4568-990d-5672c7f5352a": {
-    "asset": 1540950979274,
-    "meta": 1541405986444,
-    "relativePath": "textures/button_green.png"
   },
   "e63babb3-14de-46bb-bb38-b100f952edf6": {
     "asset": 1540950979285,
     "meta": 1541406214652,
     "relativePath": "textures/btn_normal.png"
   },
-  "688ef840-4c04-40cf-b73f-91c0260ec7ad": {
-    "asset": 1541410022134,
-    "meta": 1541410023852,
-    "relativePath": "script/Player.js"
-  },
   "701b30dc-301e-467e-a347-587b92624aad": {
     "asset": 1541411283864,
     "meta": 1541411286017,
     "relativePath": "script/Game.js"
+  },
+  "688ef840-4c04-40cf-b73f-91c0260ec7ad": {
+    "asset": 1541414207509,
+    "meta": 1541414209883,
+    "relativePath": "script/Player.js"
+  },
+  "facd181c-859e-49b3-ba35-909875d0033e": {
+    "asset": 1541474089482,
+    "meta": 1541474110847,
+    "relativePath": "textures/Game_Over.png"
   }
 }
