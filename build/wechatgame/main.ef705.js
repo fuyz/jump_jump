@@ -135,7 +135,7 @@ window.boot = function () {
         BK.Script.loadlib();
     }
     else {
-        var bundledScript = settings.debug ? 'src/project.dev.66704.js' : 'src/project.js';
+        var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.497af.js';
         if (jsList) {
             jsList = jsList.map(function (x) {
                 return 'src/' + x;
@@ -161,7 +161,7 @@ window.boot = function () {
     cc.game.run(option, onStart);
 };
 
-// main.e11ab.js is qqplay and jsb platform entry file, so we must leave platform init code here
+// main.ef705.js is qqplay and jsb platform entry file, so we must leave platform init code here
 if (false) {
     BK.Script.loadlib('GameRes://src/settings.js');
     BK.Script.loadlib();
@@ -185,8 +185,28 @@ if (false) {
     window.boot();
 }
 else if (window.jsb) {
-    require('src/settings.41b0d.js');
+    require('src/settings.dc63e.js');
     require('src/cocos2d-jsb.js');
     require('jsb-adapter/engine/index.js');
     window.boot();
 }
+    // Begin Cocos Analytics
+    (function () {
+        if ((typeof cocosAnalytics) !== 'undefined'){
+            var initArgs = {
+                appID: '612385609',
+                appSecret: '8a35b05e74f5d824da4138e45857bd15',
+                channel: '12345',
+                version: '1.0.1'
+            };
+
+            if (!initArgs.appID || !initArgs.appSecret || !initArgs.version) {
+                console.error('请在编辑器设置好 Cocos Analytics 的 appID, appSecret 和 version');
+                return;
+            }
+
+            cocosAnalytics.init(initArgs);
+        }
+    })();
+    // End Cocos Analytics
+    
