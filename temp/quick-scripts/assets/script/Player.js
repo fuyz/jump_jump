@@ -186,8 +186,10 @@ cc.Class({
         var screenW = this.node.parent.width;
         if (this.node.x < -screenW / 2) {
             this.node.x = -screenW / 2;
+            this.xSpeed = 0;
         } else if (this.node.x > screenW / 2) {
             this.node.x = screenW / 2;
+            this.xSpeed = 0;
         }
     }
     // update (dt) {},

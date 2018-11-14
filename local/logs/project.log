@@ -1,61 +1,62 @@
-2018-11-06T03:10:24.229Z - normal: Load ~/.CocosCreator/settings.json
-2018-11-06T03:10:24.231Z - normal: checking language setting...
-2018-11-06T03:10:24.232Z - normal: Language: zh
-2018-11-06T03:10:24.860Z - success: protocol editor-framework registered
-2018-11-06T03:10:24.860Z - success: protocol app registered
-2018-11-06T03:10:24.860Z - success: protocol theme registered
-2018-11-06T03:10:24.860Z - success: protocol packages registered
-2018-11-06T03:10:24.861Z - success: protocol unpack registerred
-2018-11-06T03:10:24.861Z - success: protocol disable-commonjs registerred
-2018-11-06T03:10:25.084Z - normal: connected!
-2018-11-06T03:10:25.087Z - normal: Check project /Users/fuyingzhi/Desktop/jump_jump
-2018-11-06T03:10:25.090Z - normal: Initializing project /Users/fuyingzhi/Desktop/jump_jump
-2018-11-06T03:10:25.094Z - normal: Initializing Cocos2d
-2018-11-06T03:10:25.892Z - normal: Initializing Asset Database
-2018-11-06T03:10:25.951Z - success: protocol uuid registerred
-2018-11-06T03:10:25.951Z - success: protocol db registerred
-2018-11-06T03:10:25.951Z - success: protocol thumbnail registerred
-2018-11-06T03:10:25.952Z - normal: Loading editor/builtin packages
-2018-11-06T03:10:26.145Z - success: assets loaded
-2018-11-06T03:10:26.149Z - success: builder loaded
-2018-11-06T03:10:26.151Z - success: cocos-analytics loaded
-2018-11-06T03:10:26.164Z - success: console loaded
-2018-11-06T03:10:26.200Z - success: fb-instant-games loaded
-2018-11-06T03:10:26.202Z - success: google-instant-games loaded
-2018-11-06T03:10:26.212Z - success: hierarchy loaded
-2018-11-06T03:10:26.218Z - success: inspector loaded
-2018-11-06T03:10:26.220Z - success: keystore loaded
-2018-11-06T03:10:26.226Z - success: node-library loaded
-2018-11-06T03:10:26.227Z - success: package-asset loaded
-2018-11-06T03:10:26.229Z - success: preferences loaded
-2018-11-06T03:10:26.232Z - success: project-exporter loaded
-2018-11-06T03:10:26.254Z - success: project-importer loaded
-2018-11-06T03:10:26.258Z - success: project-settings loaded
-2018-11-06T03:10:26.262Z - success: ui-kit loaded
-2018-11-06T03:10:26.267Z - success: scene loaded
-2018-11-06T03:10:26.268Z - success: sprite-editor loaded
-2018-11-06T03:10:26.273Z - success: store loaded
-2018-11-06T03:10:26.283Z - success: timeline loaded
-2018-11-06T03:10:26.283Z - normal: Loading builtin packages
-2018-11-06T03:10:26.290Z - success: asset-db-debugger loaded
-2018-11-06T03:10:26.291Z - success: color-picker loaded
-2018-11-06T03:10:26.415Z - success: google-play-instant loaded
-2018-11-06T03:10:26.417Z - success: jsb-adapter loaded
-2018-11-06T03:10:26.423Z - success: package-manager loaded
-2018-11-06T03:10:26.581Z - success: qqplay-adapter loaded
-2018-11-06T03:10:26.588Z - success: sdkbox loaded
-2018-11-06T03:10:26.592Z - success: tester loaded
-2018-11-06T03:10:26.597Z - success: ui-grid loaded
-2018-11-06T03:10:26.602Z - success: ui-kit-preview-extra loaded
-2018-11-06T03:10:26.606Z - success: ui-kit-preview loaded
-2018-11-06T03:10:26.609Z - success: ui-tree loaded
-2018-11-06T03:10:26.610Z - success: weapp-adapter loaded
-2018-11-06T03:10:27.644Z - normal: Loading packages
-2018-11-06T03:10:27.649Z - normal: Watching packages
-2018-11-06T03:10:27.703Z - normal: Run Application
-2018-11-06T03:10:28.316Z - success: preview server running at http://localhost:7456
-2018-11-06T03:10:33.949Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
-2018-11-06T03:16:38.483Z - error: getComponent: Type must be non-nil
+2018-11-14T10:11:07.741Z - normal: Load ~/.CocosCreator/settings.json
+2018-11-14T10:11:07.745Z - normal: checking language setting...
+2018-11-14T10:11:07.745Z - normal: Language: zh
+2018-11-14T10:11:08.285Z - success: protocol editor-framework registered
+2018-11-14T10:11:08.285Z - success: protocol app registered
+2018-11-14T10:11:08.286Z - success: protocol theme registered
+2018-11-14T10:11:08.286Z - success: protocol packages registered
+2018-11-14T10:11:08.286Z - success: protocol unpack registerred
+2018-11-14T10:11:08.286Z - success: protocol disable-commonjs registerred
+2018-11-14T10:11:08.517Z - normal: connected!
+2018-11-14T10:11:08.520Z - normal: Check project /Users/fuyingzhi/Desktop/jump_jump
+2018-11-14T10:11:08.522Z - normal: Initializing project /Users/fuyingzhi/Desktop/jump_jump
+2018-11-14T10:11:08.528Z - normal: Initializing Cocos2d
+2018-11-14T10:11:09.509Z - normal: Initializing Asset Database
+2018-11-14T10:11:09.558Z - success: protocol uuid registerred
+2018-11-14T10:11:09.558Z - success: protocol db registerred
+2018-11-14T10:11:09.558Z - success: protocol thumbnail registerred
+2018-11-14T10:11:09.558Z - normal: Loading editor/builtin packages
+2018-11-14T10:11:09.709Z - success: assets loaded
+2018-11-14T10:11:09.714Z - success: builder loaded
+2018-11-14T10:11:09.716Z - success: cocos-analytics loaded
+2018-11-14T10:11:09.720Z - success: console loaded
+2018-11-14T10:11:09.754Z - success: fb-instant-games loaded
+2018-11-14T10:11:09.756Z - success: google-instant-games loaded
+2018-11-14T10:11:09.761Z - success: hierarchy loaded
+2018-11-14T10:11:09.765Z - success: inspector loaded
+2018-11-14T10:11:09.767Z - success: keystore loaded
+2018-11-14T10:11:09.772Z - success: node-library loaded
+2018-11-14T10:11:09.774Z - success: package-asset loaded
+2018-11-14T10:11:09.776Z - success: preferences loaded
+2018-11-14T10:11:09.779Z - success: project-exporter loaded
+2018-11-14T10:11:09.794Z - success: project-importer loaded
+2018-11-14T10:11:09.797Z - success: project-settings loaded
+2018-11-14T10:11:09.810Z - success: ui-kit loaded
+2018-11-14T10:11:09.815Z - success: scene loaded
+2018-11-14T10:11:09.816Z - success: sprite-editor loaded
+2018-11-14T10:11:09.821Z - success: store loaded
+2018-11-14T10:11:09.828Z - success: timeline loaded
+2018-11-14T10:11:09.828Z - normal: Loading builtin packages
+2018-11-14T10:11:09.833Z - success: asset-db-debugger loaded
+2018-11-14T10:11:09.835Z - success: color-picker loaded
+2018-11-14T10:11:09.931Z - success: google-play-instant loaded
+2018-11-14T10:11:09.933Z - success: jsb-adapter loaded
+2018-11-14T10:11:09.939Z - success: package-manager loaded
+2018-11-14T10:11:10.098Z - success: qqplay-adapter loaded
+2018-11-14T10:11:10.105Z - success: sdkbox loaded
+2018-11-14T10:11:10.110Z - success: tester loaded
+2018-11-14T10:11:10.115Z - success: ui-grid loaded
+2018-11-14T10:11:10.119Z - success: ui-kit-preview-extra loaded
+2018-11-14T10:11:10.124Z - success: ui-kit-preview loaded
+2018-11-14T10:11:10.128Z - success: ui-tree loaded
+2018-11-14T10:11:10.129Z - success: weapp-adapter loaded
+2018-11-14T10:11:10.996Z - normal: Loading packages
+2018-11-14T10:11:11.001Z - normal: Watching packages
+2018-11-14T10:11:11.082Z - normal: Run Application
+2018-11-14T10:11:12.108Z - success: preview server running at http://localhost:7456
+2018-11-14T10:11:17.223Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-14T10:12:36.988Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-14T10:12:39.011Z - error: getComponent: Type must be non-nil
     at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
     at getConstructor (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:29:20)
     at cc_Node.getComponent (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:399:35)
@@ -64,7 +65,7 @@
     at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
     at emitMany (events.js:127:13)
     at EventEmitter.emit (events.js:204:7)
-2018-11-06T03:16:47.288Z - normal: Start building with options : {
+2018-11-14T10:16:19.165Z - normal: Start building with options : {
   "actualPlatform": "wechatgame",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -133,31 +134,43 @@
   "projectName": "jump_jump",
   "debugBuildWorker": false
 }
-2018-11-06T03:16:47.290Z - normal: Building /Users/fuyingzhi/Desktop/jump_jump
-2018-11-06T03:16:47.290Z - normal: Destination /Users/fuyingzhi/Desktop/jump_jump/build/wechatgame
-2018-11-06T03:16:47.578Z - normal: Delete /Users/fuyingzhi/Desktop/jump_jump/build/wechatgame/**/*
-2018-11-06T03:16:49.369Z - normal: Start building assets
-2018-11-06T03:16:49.370Z - normal: Start spawn build-worker
-2018-11-06T03:16:49.964Z - normal: Finish spawn build-worker
-2018-11-06T03:16:49.964Z - normal: Start init build-worker
-2018-11-06T03:16:52.428Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
-2018-11-06T03:16:52.431Z - normal: Finish init build-worker
-2018-11-06T03:16:52.431Z - normal: Start build-assets in worker
-2018-11-06T03:16:52.678Z - normal: Finish build-assets in worker
-2018-11-06T03:16:52.681Z - normal: Finish building assets
-2018-11-06T03:16:52.689Z - normal: Start building plugin scripts
-2018-11-06T03:16:52.751Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-11-06T03:16:53.924Z - warn: [Cocos Analystic] Can not find index.html
-2018-11-06T03:16:54.125Z - normal: Built to "/Users/fuyingzhi/Desktop/jump_jump/build/wechatgame" successfully
-2018-11-06T03:16:57.387Z - normal: Initializing...
+2018-11-14T10:16:19.169Z - normal: Building /Users/fuyingzhi/Desktop/jump_jump
+2018-11-14T10:16:19.169Z - normal: Destination /Users/fuyingzhi/Desktop/jump_jump/build/wechatgame
+2018-11-14T10:16:19.470Z - normal: Delete /Users/fuyingzhi/Desktop/jump_jump/build/wechatgame/**/*
+2018-11-14T10:16:21.331Z - normal: Start building assets
+2018-11-14T10:16:21.331Z - normal: Start spawn build-worker
+2018-11-14T10:16:21.929Z - normal: Finish spawn build-worker
+2018-11-14T10:16:21.929Z - normal: Start init build-worker
+2018-11-14T10:16:24.414Z - warn: The 'type' attribute of 'Game.player' is undefined when loading script
+2018-11-14T10:16:24.416Z - normal: Finish init build-worker
+2018-11-14T10:16:24.416Z - normal: Start build-assets in worker
+2018-11-14T10:16:24.672Z - normal: Finish build-assets in worker
+2018-11-14T10:16:24.680Z - normal: Finish building assets
+2018-11-14T10:16:24.689Z - normal: Start building plugin scripts
+2018-11-14T10:16:24.751Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-11-14T10:16:25.740Z - warn: [Cocos Analystic] Can not find index.html
+2018-11-14T10:16:25.847Z - normal: Built to "/Users/fuyingzhi/Desktop/jump_jump/build/wechatgame" successfully
+2018-11-14T10:17:17.499Z - normal: Initializing...
 
-2018-11-06T03:16:57.392Z - normal: idePortFile: /Users/fuyingzhi/Library/Application Support/微信web开发者工具/Default/.ide
+2018-11-14T10:17:17.504Z - normal: idePortFile: /Users/fuyingzhi/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-11-06T03:16:57.406Z - normal: starting ide...
+2018-11-14T10:17:17.520Z - normal: starting ide...
 
-2018-11-06T03:17:01.782Z - normal: IDE server has started, listening on http://127.0.0.1:45906
+2018-11-14T10:17:17.789Z - normal: Initializing...
 
-2018-11-06T03:17:01.786Z - normal: initialization finished
+2018-11-14T10:17:17.795Z - normal: idePortFile: /Users/fuyingzhi/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-11-06T03:17:04.301Z - normal: open IDE success
+2018-11-14T10:17:17.805Z - normal: starting ide...
+
+2018-11-14T10:17:20.071Z - normal: Initializing...
+
+2018-11-14T10:17:20.078Z - normal: idePortFile: /Users/fuyingzhi/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-11-14T10:17:20.090Z - normal: starting ide...
+
+2018-11-14T10:17:22.231Z - normal: IDE server has started, listening on http://127.0.0.1:37536
+
+2018-11-14T10:17:22.234Z - normal: initialization finished
+
+2018-11-14T10:17:23.043Z - normal: open IDE success
 
