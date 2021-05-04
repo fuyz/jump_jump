@@ -2,6 +2,7 @@
 this project is a small game develop by Cocos-Creator development tool and deployed on WeChat as a small program game
 
 ## 关于 Cocos Creator
+```
 Q: Cocos Creator 是游戏引擎吗？
 
 A: 它是一个完整的游戏开发解决方案，包括了 cocos2d-x 引擎的 JavaScript 实现（不需要学习一个新的引擎），以及能让你更快速开发游戏所需要的各种图形界面工具
@@ -21,7 +22,7 @@ A: Cocos Creator 目前支持发布游戏到 Web、iOS、Android、各类"小游
 Q: Cocos Creator 能开发 Cocos2d-x C++ 或者 Lua 的游戏吗？
 
 A: Cocos Creator 可以通过安装 C++/Lua for Creator 插件，在编辑器里编辑 UI 和场景，导出通用的数据文件，在 Cocos2d-x 引擎中进行加载运行。
-
+```
 ## 工作流程说明
 在开发阶段，Cocos Creator 已经能够为用户带来巨大的效率和创造力提升，但我们所提供的工作流远不仅限于开发层面。对于成功的游戏来说，开发和调试、商业化 SDK 的集成、多平台发布、测试、上线这一整套工作流程不光缺一不可，而且要经过多次的迭代重复。
 
